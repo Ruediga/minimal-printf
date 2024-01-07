@@ -6,7 +6,7 @@ Reference for internal functions: [mpaland/printf](https://github.com/mpaland/pr
 
 ## Feature List
 
-This implementation is (mostly) compatible with the libc <stdio.h> definition.
+This implementation is mostly compatible with the libc <stdio.h> definition, except for reduced features.
 
 > %[flags][width][.precision][length]specifier
 
