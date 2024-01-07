@@ -1,6 +1,8 @@
 # Minimal printf() for OSDev and Embedded Devices
 
-This repository provides a minimalistic, custom, dependency-free and SSE free implementation of the printf() function.
+This repository provides a minimalistic, custom, dependency and SSE-Operation free implementation of the printf() function.
+
+Reference for internal functions: [mpaland/printf](https://github.com/mpaland/printf)
 
 ## Feature List
 
@@ -44,21 +46,6 @@ This implementation is (mostly) compatible with the libc <stdio.h> definition.
             <td><tt>X</tt></td>
             <td>Unsigned hexadecimal integer (uppercase)</td>
             <td><tt>7FA</tt></td>
-        </tr>
-        <tr>
-            <td><tt>f</tt> <i>or</i> <tt>F</tt></td>
-            <td>Decimal floating point</td>
-            <td><tt>392.65</tt></td>
-        </tr>
-        <tr>
-            <td><tt>e</tt> <i>or</i> <tt>E</tt></td>
-            <td>Scientific notation (mantissa/exponent), lowercase</td>
-            <td><tt>3.9265e+2</tt></td>
-        </tr>
-        <tr>
-            <td><tt>g</tt> <i>or</i> <tt>G</tt></td>
-            <td>Use the shortest representation: <tt>%e</tt> or <tt>%f</tt></td>
-            <td><tt>392.65</tt></td>
         </tr>
         <tr>
             <td><tt>c</tt></td>

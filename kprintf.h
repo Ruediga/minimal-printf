@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-int printf(const char *, ...);
+int kprintf(const char *, ...);
 
 #ifdef __cplusplus
 }
